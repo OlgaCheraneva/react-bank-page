@@ -1,0 +1,152 @@
+.internetBankPayment p {
+  margin: 0;
+  padding: 2% 2% 0;
+  font-weight: 600;
+}
+
+.internetBankPayment form {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  padding: 2% 2% 0;
+}
+
+.internetBankPayment .dataList {
+  padding: 0;
+  margin: 2% 0;
+}
+
+.internetBankPayment .dataElement {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.internetBankPayment label {
+  color: darkslategray;
+  padding: 7px 0;
+  box-sizing: border-box;
+  min-width: 30%;
+  padding-right: 15px;
+}
+
+.internetBankPayment .dataElement input,
+.internetBankPayment .tax {
+  border: none;
+  width: 70%;
+  margin-bottom: 20px;
+  padding: 7px 20px;
+}
+
+.internetBankPayment #sum {
+  width: 30%;
+}
+
+.internetBankPayment #from,
+.internetBankPayment #BIC,
+.internetBankPayment #accountNumber,
+.internetBankPayment #sum {
+  border-bottom: 1px solid lightslategray;
+}
+
+.internetBankPayment .tax {
+  border-bottom: 1px solid darkgoldenrod;
+}
+
+.internetBankPayment .submitButton {
+  background: rgba(243, 226, 199, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 0.63) 50%,
+    rgba(182, 141, 76, 0.62) 51%,
+    rgba(233, 212, 179, 0.25) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(243, 226, 199, 1)),
+    color-stop(50%, rgba(193, 158, 103, 0.63)),
+    color-stop(51%, rgba(182, 141, 76, 0.62)),
+    color-stop(100%, rgba(233, 212, 179, 0.25))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 0.63) 50%,
+    rgba(182, 141, 76, 0.62) 51%,
+    rgba(233, 212, 179, 0.25) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 0.63) 50%,
+    rgba(182, 141, 76, 0.62) 51%,
+    rgba(233, 212, 179, 0.25) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 0.63) 50%,
+    rgba(182, 141, 76, 0.62) 51%,
+    rgba(233, 212, 179, 0.25) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(243, 226, 199, 1) 0%,
+    rgba(193, 158, 103, 0.63) 50%,
+    rgba(182, 141, 76, 0.62) 51%,
+    rgba(233, 212, 179, 0.25) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+  border: 1px solid lightslategrey;
+  max-width: 290px;
+  width: fit-content;
+  padding: 2% 5%;
+}
+
+.internetBankPayment .resetButton {
+  background: none;
+  border: none;
+  width: fit-content;
+  color: darkgoldenrod;
+  margin: 4% 0;
+}
+
+.internetBankPayment .resetButton:hover {
+  color: rgb(133, 97, 7);
+}
+
+.inputArea {
+  width: 70%;
+}
+
+.inputArea * {
+  display: block;
+}
+
+.inputArea input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+.inputArea label {
+  color: gray;
+  font-size: 0.8em;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.taxOptions {
+  padding: 0 20px;
+  display: flex;
+}
+
+.taxOptions button {
+  padding-right: 10px;
+  color: darkgoldenrod;
+}
+
+button.taxOption__chosen {
+  color: black;
+}
