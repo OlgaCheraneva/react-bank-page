@@ -1,3 +1,6 @@
+Техническое задание по курсу Веб и DHTML
+Single Page Application с оплатой с использованием React, бэкэнд к нему и админ-панель.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
